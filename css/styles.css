@@ -16,11 +16,11 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
   background-color: #fff;
-  color: #222;
+  color: #385159;
 }
 
 img {
@@ -70,8 +70,8 @@ select:-webkit-autofill:focus {
 .container {
   width: 100%;
   max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
