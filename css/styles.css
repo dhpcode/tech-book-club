@@ -21,6 +21,7 @@ body {
 	line-height: 1.4;
 	background-color: #fff;
 	color: #385159;
+	letter-spacing: -0.5px;
 }
 
 img {
@@ -77,6 +78,7 @@ select:-webkit-autofill:focus {
 /* MAIN CONTENT */
 .main-content {
 	flex-grow: 1;
+	padding: 120px 0;
 }
 
 /* RETINA BACKGROUNDS */
@@ -220,4 +222,63 @@ select:-webkit-autofill:focus {
 	width: 100%;
 	object-fit: cover;
 	border-radius: 16px;
+}
+
+/* Read together */
+
+.read-together {
+}
+.read-together__container {
+	display: flex;
+	align-items: center;
+	gap: 80px;
+}
+.read-together__image {
+	width: 560px;
+	height: 520px;
+	flex-shrink: 0;
+}
+.read-together__img {
+	display: block;
+	border-radius: 16px;
+}
+.read-together__content {
+	padding: 44px 0;
+}
+.read-together__title {
+	font-family: "Martian Mono", Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 1.3;
+	letter-spacing: -2px;
+	margin-top: 0;
+	margin-bottom: 34px;
+}
+.read-together__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 431px;
+	/* margin-right: 99px; */
+}
+
+.read-together__item:not(:last-child) {
+	margin-bottom: 24px;
+}
+.read-together__item {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	letter-spacing: -0.5px;
+}
+.read-together__item::before {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	content: "";
+	/* border: 2px solid #385159; */
+	background-image: url("../images/icon-check.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 0 0;
 }
