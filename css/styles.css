@@ -93,11 +93,15 @@ select:-webkit-autofill:focus {
 /* SITE-HEADER */
 
 .site-header-intro-wrapper {
-	background-image: url("../images/pattern-light-bg.svg"),
-		url("../images/pattern-glow.svg");
+	background-image:
+		url("../images/pattern-light-bg.svg"), url("../images/pattern-glow.svg");
 	background-repeat: no-repeat no-repeat;
-	background-size: cover, 684px 684px;
-	background-position: 0 0, right -25% bottom -150%;
+	background-size:
+		cover,
+		684px 684px;
+	background-position:
+		0 0,
+		right -25% bottom -150%;
 }
 .site-header {
 	padding: 32px 0;
@@ -308,10 +312,28 @@ select:-webkit-autofill:focus {
 }
 .highlight {
 	display: inline-block;
-	background-image: url('../images/pattern-circle.png');
+	position: relative;
+	/* background-image: url('../images/pattern-circle.png');
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-position: 0 center; */
 }
+
+.highlight::after {
+	content: "";
+	position: absolute;
+	left: -20px;
+	top: 50%;
+	width: 120%;
+	height: 140%;
+	background-image: url("../images/pattern-circle.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	transform: translateY(-50%);
+	pointer-events: none;
+}
+
 .not-your-average__text {
 	margin: 0;
 }
