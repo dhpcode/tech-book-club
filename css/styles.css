@@ -101,7 +101,7 @@ select:-webkit-autofill:focus {
 		684px 684px;
 	background-position:
 		0 0,
-		right -25% bottom -150%;
+		bottom -150% right -25%;
 }
 .site-header {
 	padding: 32px 0;
@@ -360,4 +360,87 @@ select:-webkit-autofill:focus {
 .not-your-average__img {
 	display: block;
 	border-radius: 16px;
+}
+
+/* Your tech reading journey */
+
+.tech-reading-journey {
+	margin-bottom: 120px;
+}
+.tech-reading-journey__container {
+	background-image:
+		url("../images/pattern-light-bg.svg"), url("../images/pattern-glow.svg");
+	background-repeat: no-repeat, no-repeat;
+	background-size:
+		cover,
+		684px 684px;
+	background-position:
+		0 0,
+		bottom 150% right -50%;
+
+	padding: 80px 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 64px;
+}
+.tech-reading-journey__title {
+	text-align: center;
+	width: 512px;
+	font-family: "Martian Mono", Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: -4px;
+	color: #062630;
+	margin: 0;
+}
+.tech-reading-journey__list {
+	display: flex;
+	gap: 48px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.tech-reading-journey__list-item {
+	position: relative;
+	width: 226.5px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.tech-reading-journey__list-item:not(:last-child)::after {
+	position: absolute;
+	display: inline-block;
+	content: "";
+	width: 77px;
+	height: 21px;
+	top: 0;
+	right: 0;
+	background-image: url("../images/pattern-arrow.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	transform: rotate(-5deg);
+}
+.tech-reading-journey__list-item-number {
+	text-align: center;
+	align-self: flex-start;
+	width: 40px;
+	height: 40px;
+	border: 2px solid #062630;
+	border-radius: 4px;
+	font-family: "Martian Mono", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 40px;
+	color: #062630;
+}
+.tech-reading-journey__list-item-text {
+	font-family: "Martian Mono", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 130%;
+	letter-spacing: -1px;
+	color: #062630;
 }
