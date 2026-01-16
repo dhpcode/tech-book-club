@@ -227,6 +227,7 @@ select:-webkit-autofill:focus {
 /* Read together */
 
 .read-together {
+	margin-bottom: 120px;
 }
 .read-together__container {
 	display: flex;
@@ -281,4 +282,45 @@ select:-webkit-autofill:focus {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: 0 0;
+}
+
+/* Not-your-average */
+
+.not-your-average {
+	margin-bottom: 120px;
+}
+
+.not-your-average__container {
+	display: flex;
+	gap: 80px;
+	align-items: center;
+}
+.not-your-average__content {
+}
+.not-your-average__title {
+	font-family: "Martian Mono", Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 1.3;
+	letter-spacing: -2px;
+	margin-top: 0;
+	margin-bottom: 24px;
+}
+.highlight {
+	display: inline-block;
+	background-image: url('../images/pattern-circle.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.not-your-average__text {
+	margin: 0;
+}
+.not-your-average__image {
+	flex-shrink: 0;
+	width: 560px;
+	height: 520px;
+}
+.not-your-average__img {
+	display: block;
+	border-radius: 16px;
 }
