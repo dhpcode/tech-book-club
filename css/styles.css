@@ -586,3 +586,41 @@ select:-webkit-autofill:focus {
 .quote__author-name {
 	margin: 0;
 }
+
+/* Footer */
+
+.site-footer {
+	background-color: #062630;
+	color: #fff;
+	border-radius: 16px;
+}
+.container {
+}
+.site-footer__container {
+}
+.site-footer__top {
+}
+.site-footer__top-content {
+}
+.site-footer__heading {
+}
+.main-button {
+}
+.site-footer__content-joined-info {
+}
+.content__joined-info {
+}
+.content__joined-info-img {
+}
+.content__info-joined-info {
+}
+.stars-list {
+}
+.joined-devs {
+}
+.site-footer__bottom {
+}
+.site-footer__socials {
+}
+.site-footer__social-link {
+}
