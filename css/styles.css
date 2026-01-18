@@ -147,7 +147,7 @@ select:-webkit-autofill:focus {
 	font-size: 62px;
 	line-height: 1.2;
 	letter-spacing: -2px;
-	background: linear-gradient(135deg, #fea36f 0%, #062630 100%);
+	background: linear-gradient(135deg, #fea36f 0%, #062630 50%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
